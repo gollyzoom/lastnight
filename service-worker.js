@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/gollyzoom/lastnight/precache-manifest.c9a107d91e9b1462b47e82e83805f627.js"
+  "/lastnight/precache-manifest.e4f2b69741c3e2438f9ebfd413c8d681.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/gollyzoom/lastnight/index.html", {
+workbox.routing.registerNavigationRoute("/lastnight/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
